@@ -1,0 +1,104 @@
+{
+  "heroes": [
+    {
+      "name": "warrior",
+      "hp": 100,
+      "ability": "armourBoost",
+      "armour": 5,
+      "evasion": 20
+    },
+    {
+      "name": "priest",
+      "hp": 90,
+      "ability": "heal",
+      "armour": 4,
+      "evasion": 20
+    },
+    {
+      "name": "mage",
+      "hp": 70,
+      "ability": "fireStorm",
+      "armour": 1,
+      "evasion": 5
+    },
+    {
+      "name": "rouge",
+      "hp": 80,
+      "ability": "dodge",
+      "armour": 3,
+      "evasion": 30
+    },
+    {
+      "name": "archer",
+      "hp": 80,
+      "ability": "headShot",
+      "armour": 2,
+      "evasion": 15
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sword",
+      "avaible": ["warrior", "priest", "mage", "rouge", "archer"],
+      "dmg": "8-12",
+      "hitRate": "90%"
+    },
+    {
+      "name": "dagger",
+      "avaible": ["rouge"],
+      "dmg": "4-5",
+      "hitRate": "98%"
+    },
+    {
+      "name": "warHammer",
+      "avaible": ["priest"],
+      "dmg": "10-12",
+      "hitRate": "93%"
+    },
+    {
+      "name": "battleAxe",
+      "avaible": ["warrior"],
+      "dmg": "12-15",
+      "hitRate": "92%"
+    },
+    {
+      "name": "bow",
+      "avaible": ["archer"],
+      "dmg": "7-12",
+      "hitRate": "89%"
+    },
+    {
+      "name": "wand",
+      "avaible": ["mage"],
+      "dmg": "9-15",
+      "hitRate": "97%"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "armourBoost",
+      "stat": "armour",
+      "boost": 10
+    },
+    {
+      "name": "dodge",
+      "stat": "evasion",
+      "boost": 100
+    },
+    {
+      "name": "fireStorm",
+      "stat": "dmg",
+      "boost": 20
+    },
+    {
+      "name": "headShot",
+      "stat": "dmg",
+      "boost": 15
+    },
+    {
+      "name": "heal",
+      "stat": "hp",
+      "boost": 10
+    }
+  ]
+}
